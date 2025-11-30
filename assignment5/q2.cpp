@@ -20,7 +20,7 @@ public:
         head = NULL;
     }
 
-    // Insert at end just to build list easily
+    // Inserted at end just to build list easily
     void insertEnd(int x) {
         Node* n = new Node(x);
 
